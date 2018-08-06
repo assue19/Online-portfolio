@@ -23,6 +23,11 @@
     text-decoration: none;
     font-size: 17px;
 }
+img{
+    width: 300px;
+    height: 200;
+    margin:20px;
+}
 
 /* Change the color of links on hover */
 .topnav a:hover {
@@ -37,5 +42,22 @@
 }
 .java{
     margin: 0 auto;
-    border:60px solid orange;
+    border:60px solid grey;
+}
+button {
+background-color: purple; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+.wraper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:200px;
+    height:133px;
 }
